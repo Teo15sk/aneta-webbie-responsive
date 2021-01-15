@@ -1,0 +1,54 @@
+.portfolio {
+    background-color: $green;
+    padding: 2rem 15% 4rem 15%;
+    &__heading {
+        font-size: 4rem;
+        font-weight: 700;
+        color: $white;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item {
+        background-color: $white;
+        display: flex;
+        flex-direction: column;
+        width: 32%;
+        padding: 0.5rem;
+        margin-bottom: 1.2rem;
+        &--black {
+            background-color: black;
+        }
+    }
+    &__img {
+        width: 100%;
+        margin-bottom: 0.3rem;
+    }
+    &__desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $light-grey;
+        padding: 1rem;
+        flex-grow: 1;
+    }
+    &__desc p {
+        text-align: center;
+    }
+    &__tech-stack {
+        font-weight: 700;
+        font-size: 1.2rem;
+        align-self: flex-start;
+        margin-bottom: 0;
+    }
+}
+
+.btn--portfolio {
+    width: 90%;
+    margin-bottom: 0;
+}

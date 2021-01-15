@@ -1,0 +1,27 @@
+.home {
+    height: 65vh;
+    background-image: url("/img/frond-1869757_1280.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $white;
+    text-align: center;
+    padding-top: 8rem;
+    margin-top: 5rem;
+    &__name {
+        font-weight: 400;
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+    &__link {
+        font-weight: 700;
+        color: $green;
+        text-decoration: none;
+        border-bottom: solid $white 5px;
+    }
+    &__job {
+        font-weight: 400;
+        font-size: 3rem;
+        margin-top: 0;
+    }
+}

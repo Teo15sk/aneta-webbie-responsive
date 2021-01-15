@@ -1,0 +1,39 @@
+.about {
+    background-color: $light-grey;
+    padding: 5rem 18rem;
+    &__heading {
+        font-size: 4rem;
+        font-weight: 700;
+        color: $dark-grey;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__img {
+        object-fit: cover;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        margin-right: 4rem;
+    }
+    &__desc {
+        text-align: left;
+        &--underlined {
+            text-decoration: underline $green 0.5rem;
+        }
+        p:last-of-type {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.btn--about {
+    padding: 0.2rem 3rem;
+}

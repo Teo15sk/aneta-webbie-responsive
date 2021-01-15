@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    background-color: $white;
+    width: 100%;
+}
+
+.nav__logo {
+    height: 3rem;
+    padding-left: 3rem;
+}
+
+.nav__container {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav__container li {
+}
+.nav__link {
+    font-size: 1.5rem;
+    color: $light-grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.25rem 5rem;
+    background-color: $dark-grey;
+}
+
+.nav__link:hover {
+    color: $dark-grey;
+    background-color: $green;
+}

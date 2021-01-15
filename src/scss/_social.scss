@@ -1,0 +1,18 @@
+.social-media {
+    background-color: $dark-grey;
+    color: $light-grey;
+    padding: 5rem 20rem;
+    &__heading {
+        font-size: 1.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
+    &__container {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 6rem;
+    }
+}
