@@ -27,10 +27,6 @@ body {
     box-shadow: 4px 5px 9px 0px rgba(0, 0, 0, 0.74);
 }
 
-@import "social";
-@import "contact";
-@import "footer";
-
 /* NAVIGATION SECTION */
 
 @import "nav";
@@ -58,3 +54,15 @@ body {
 /* ABOUT ME SECTION */
 
 @import "about";
+
+/* SOCIAL MEDIA SECTION */
+
+@import "social";
+
+/* CONTACT ME SECTION */
+
+@import "contact";
+
+/* FOOTER SECTION */
+
+@import "footer";

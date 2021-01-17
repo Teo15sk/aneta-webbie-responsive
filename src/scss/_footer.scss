@@ -1,0 +1,34 @@
+.footer {
+    background-color: $light-grey;
+    color: $dark-grey;
+    padding: 5rem 18rem;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        p {
+            font-size: 1.15rem;
+            font-weight: 500;
+        }
+    }
+    &__heading {
+        font-size: 3rem;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    &__social-media {
+        display: flex;
+        justify-content: space-evenly;
+        width: 30%;
+        font-size: 4rem;
+
+        margin-bottom: 3rem;
+    }
+    &__img {
+        color: rgba($text-grey, $alpha: 0.3);
+        :hover {
+            color: rgba($text-grey, $alpha: 0.55);
+        }
+    }
+}

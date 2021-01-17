@@ -17,7 +17,7 @@
     <nav class="nav">
 
         <img src="/img/aw-logo.png" alt="Logo" class="nav__logo">
-
+        <img src="/img/menu.png" alt="menu" class="nav__menu">
         <ul class="nav__container">
             <li><a href="#home" class="nav__link">Home</a></li>
             <li><a href="#skills" class="nav__link">Skills</a></li>
@@ -251,9 +251,9 @@
         <h3 class="social-media__heading">Find Me Here</h3>
 
         <div class="social-media__container">
-            <i class="fab fa-github social-media__img"></i>
-            <i class="fab fa-linkedin-in social-media__img"></i>
-            <i class="fab fa-instagram social-media__img"></i>
+            <a href="https://www.github.com" class="social-media__img"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com" class="social-media__img"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com" class="social-media__img"><i class="fab fa-instagram"></i></a>
 
         </div>
 
@@ -264,13 +264,15 @@
         <h2 class="contact__heading">Contact Me</h2>
 
         <form class="contact__form">
-            <input type="text" class="contact__form-input" placeholder="First Name *" required>
-            <input type="text" class="contact__form-input" placeholder="Last Name *" required>
-            <input type="email" class="contact__form-input" placeholder="E-mail *" required>
-            <input type="tel" class="contact__form-input" placeholder="Phone" required>
+            <div class="contact__form-top">
+                <input type="text" class="contact__form-input" placeholder="First Name *" required>
+                <input type="text" class="contact__form-input" placeholder="Last Name *" required>
+                <input type="email" class="contact__form-input" placeholder="E-mail *" required>
+                <input type="tel" class="contact__form-input" placeholder="Phone" required>
+            </div>
             <div class="contact__form-field">
                 <label class="contact__form-label">My message *</label>
-                <textarea rows="4" class="contact__form-textarea" required></textarea>
+                <textarea class="contact__form-textarea" required></textarea>
             </div>
             <button type="submit" class="contact__form-button">Send my message</button>
         </form>
@@ -279,15 +281,15 @@
 
 
 
-    <footer>
+    <footer class="footer">
 
         <div class="footer__container">
             <h2 class="footer__heading">Nice to meet you!</h2>
 
             <div class="footer__social-media">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <a href="https://www.github.com" class="footer__img"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com" class="footer__img"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com" class="footer__img"><i class="fab fa-instagram"></i></a>
             </div>
 
             <p>Copyright @Aneta Webbie 2021</p>

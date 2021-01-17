@@ -15,4 +15,10 @@
         justify-content: space-evenly;
         font-size: 6rem;
     }
+    &__img {
+        color: $light-grey;
+        &:hover {
+            color: $green;
+        }
+    }
 }
