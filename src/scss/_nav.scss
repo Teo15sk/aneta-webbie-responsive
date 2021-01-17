@@ -2,35 +2,51 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4rem;
+    height: 3rem;
     background-color: $white;
     width: 100%;
-}
-
-.nav__logo {
-    height: 3rem;
-    padding-left: 3rem;
-}
-
-.nav__container {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.nav__container li {
-}
-.nav__link {
-    font-size: 1.5rem;
-    color: $light-grey;
-    text-decoration: none;
-    text-transform: uppercase;
-    white-space: nowrap;
-    padding: 1.25rem 5rem;
-    background-color: $dark-grey;
-}
-
-.nav__link:hover {
-    color: $dark-grey;
-    background-color: $green;
+    @media screen and (min-width: 700px) {
+        height: 4rem;
+    }
+    &__logo {
+        height: 2rem;
+        margin-left: 0.5rem;
+        @media screen and (min-width: 700px) {
+            height: 3rem;
+            margin-left: 3rem;
+        }
+    }
+    &__menu {
+        width: 1.5rem;
+        margin-right: 0.5rem;
+        @media screen and (min-width: 850px) {
+            display: none;
+        }
+    }
+    &__container {
+        display: none;
+        @media screen and (min-width: 850px) {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    &__link {
+        font-size: 1.25rem;
+        color: $light-grey;
+        text-decoration: none;
+        text-transform: uppercase;
+        white-space: nowrap;
+        padding: 1.15rem 2.5rem;
+        background-color: $dark-grey;
+        @media screen and (min-width: 1400px) {
+            font-size: 1.5rem;
+            padding: 1.25rem 5rem;
+        }
+    }
+    &__link:hover {
+        color: $dark-grey;
+        background-color: $green;
+    }
 }
